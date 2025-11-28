@@ -219,19 +219,19 @@ password VARCHAR
 <p>Below are the screenshots (add your own images here):</p>
 
 <h3>🏠 Home Page</h3>
-<img src="SCREENSHOT URL HERE" />
+<img src="https://github.com/Abhishekkhanai07/Derma-Well-Skin-Analyzer-Web-App/blob/df518bf7ec328398af909aa5c4f5a1c96a9e3c2b/Dermawell/Homepage.png" />
 
 <h3>🧪 Quiz Page</h3>
-<img src="SCREENSHOT URL HERE" />
+<img src="https://github.com/Abhishekkhanai07/Derma-Well-Skin-Analyzer-Web-App/blob/df518bf7ec328398af909aa5c4f5a1c96a9e3c2b/Dermawell/QuizPage.png" />
 
 <h3>🛍 Products Page</h3>
-<img src="SCREENSHOT URL HERE" />
+<img src="https://github.com/Abhishekkhanai07/Derma-Well-Skin-Analyzer-Web-App/blob/df518bf7ec328398af909aa5c4f5a1c96a9e3c2b/Dermawell/ProductPage.png" />
 
 <h3>💊 Supplements Page</h3>
-<img src="SCREENSHOT URL HERE" />
+<img src="https://github.com/Abhishekkhanai07/Derma-Well-Skin-Analyzer-Web-App/blob/df518bf7ec328398af909aa5c4f5a1c96a9e3c2b/Dermawell/supplementPage.png" />
 
 <h3>🛒 Cart & Checkout</h3>
-<img src="SCREENSHOT URL HERE" />
+<img src="https://github.com/Abhishekkhanai07/Derma-Well-Skin-Analyzer-Web-App/blob/df518bf7ec328398af909aa5c4f5a1c96a9e3c2b/Dermawell/CartPage.png" />
 
 <hr>
 
