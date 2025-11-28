@@ -1,0 +1,87 @@
+.container { padding:36px; color:#eaf3ff; }
+
+.grid {
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(220px,1fr));
+  gap:18px;
+  margin-top:18px;
+}
+
+.card {
+  background:rgba(255,255,255,0.03);
+  padding:12px;
+  border-radius:10px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+  position:relative;   /* FIX */
+  z-index:1;           /* FIX */
+}
+
+.imgWrap {
+  pointer-events:none; /* FIX */
+}
+
+.img {
+  width:100%;
+  height:140px;
+  object-fit:contain;
+  background:#081025;
+  border-radius:8px;
+}
+
+.desc {
+  color:#b7c6e6;
+  font-size:14px;
+  flex:1;
+}
+
+.price {
+  color:#00f0c7;
+  font-weight:700;
+}
+
+.btn {
+  background: linear-gradient(90deg,#6a39ff,#00e6c0);
+  color: #001;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+  transition: 0.3s ease;
+}
+
+/* ⭐ Button animation when added */
+.added {
+  background: #00ff8c !important;
+  color: #003300 !important;
+  transform: scale(1.07);
+  box-shadow: 0 0 12px #00ff8c;
+}
+
+
+/* .title {
+  text-align: center;
+  margin-bottom: 16px;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.card {
+  padding: 16px;
+  background: rgba(255,255,255,0.05);
+  border-radius: 12px;
+  margin-bottom: 14px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  background: rgba(255,255,255,0.07);
+}
+
+.info {
+  font-size: 15px;
+  color: var(--muted);
+} */

@@ -1,0 +1,16 @@
+.container { padding:34px; color:#eaf3ff; }
+.list { display:flex; flex-direction:column; gap:12px; margin:18px 0; }
+.row { display:flex; gap:12px; align-items:center; background:rgba(255,255,255,0.03); padding:12px; border-radius:10px; }
+.thumb { width:110px; height:110px; object-fit:contain; background:#081025; border-radius:8px; }
+.info { flex:1; }
+.name { font-weight:700; color:#fff; }
+.price { color:#00f0c7; margin-top:6px; }
+.qty { margin-top:8px; color:#cfe9ff; }
+.qty input { width:70px; margin-left:6px; padding:6px; border-radius:6px; border:1px solid #324A70; background:#081025; color:#fff; }
+.actions { display:flex; flex-direction:column; gap:6px; }
+.remove { background:transparent; color:#ff9a9a; border:none; cursor:pointer; }
+.summary { display:flex; justify-content:space-between; align-items:center; margin-top:20px; }
+.buttons { display:flex; gap:10px; }
+.clear { background:#444; color:#fff; padding:10px 14px; border-radius:8px; }
+.checkout { background:linear-gradient(90deg,#6a39ff,#00e6c0); color:#001; padding:10px 14px; border-radius:8px; border:none; font-weight:700; }
+.empty { padding:36px; color:#cbd7ff; text-align:center; }

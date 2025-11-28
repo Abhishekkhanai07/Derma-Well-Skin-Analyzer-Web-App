@@ -1,0 +1,78 @@
+.container {
+  padding: 40px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.title {
+  text-align: center;
+  color: white;
+  margin-bottom: 40px;
+  font-size: 32px;
+}
+
+.card {
+  background: #0d1321;
+  padding: 25px;
+  border-radius: 12px;
+  margin-bottom: 25px;
+  box-shadow: 0 0 18px rgba(0, 255, 255, 0.1);
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+h3 {
+  color: white;
+  margin-bottom: 15px;
+}
+
+.options {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.optionBtn {
+  background: #1f2a44;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 8px;
+  border: 1px solid #7286d3;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.optionBtn:hover {
+  background: #3751ff;
+  transform: translateY(-3px);
+}
+
+.selected {
+  background: linear-gradient(90deg, #6e00ff, #00eaff);
+  color: white !important;
+  padding: 10px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 0 12px #00eaff;
+}
+
+.submitBtn {
+  width: 100%;
+  padding: 15px;
+  font-size: 18px;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #8a2be2, #00eaff);
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: 0.2s ease;
+}
+
+.submitBtn:hover {
+  opacity: 0.9;
+  transform: scale(1.03);
+}

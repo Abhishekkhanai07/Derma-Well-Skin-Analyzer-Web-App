@@ -1,0 +1,36 @@
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  animation: fadeUp .7s ease;
+}
+
+.title {
+  font-size: 42px;
+  font-weight: 800;
+  margin-bottom: 12px;
+  background: linear-gradient(90deg, #ffffff, #cbdfff);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.subtitle {
+  color: var(--muted);
+  margin-bottom: 24px;
+  font-size: 18px;
+}
+
+.btnStart {
+  padding: 14px 24px;
+  border-radius: 12px;
+  background: linear-gradient(90deg, var(--accent), var(--accent2));
+  color: white;
+  font-weight: 700;
+  display: inline-block;
+  cursor: pointer;
+  box-shadow: 0 12px 30px rgba(124,92,255,0.25);
+  transition: 0.3s;
+}
+
+.btnStart:hover {
+  transform: translateY(-4px);
+}
